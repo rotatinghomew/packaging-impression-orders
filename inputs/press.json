@@ -1,0 +1,63 @@
+{
+  "order": "PO77",
+  "plate": "IP28",
+  "revision": 1,
+  "sites": [
+    "A",
+    "B",
+    "C"
+  ],
+  "requested_sheets": 240,
+  "fee_per_impression": "0.24",
+  "confirmed_cancel_fee_per_position": "18.00",
+  "reports": [
+    {
+      "id": "P1",
+      "kind": "locked",
+      "sites": [
+        "A",
+        "B",
+        "C"
+      ],
+      "at": "2026-12-03T09:01:00+08:00"
+    },
+    {
+      "id": "P2",
+      "kind": "printed",
+      "run": "I-26",
+      "count": {
+        "A": 160,
+        "B": 80,
+        "C": 80
+      },
+      "at": "2026-12-03T10:45:00+08:00"
+    },
+    {
+      "id": "P3",
+      "kind": "stop_pending",
+      "sites": [
+        "A",
+        "C"
+      ],
+      "at": "2026-12-03T11:09:00+08:00"
+    },
+    {
+      "id": "P4",
+      "kind": "printed",
+      "run": "I-27",
+      "count": {
+        "A": 120,
+        "B": 60
+      },
+      "at": "2026-12-03T11:10:00+08:00"
+    },
+    {
+      "id": "P5",
+      "kind": "stop_confirmed",
+      "sites": [
+        "C"
+      ],
+      "at": "2026-12-03T11:35:00+08:00"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "id": "S23",
+    "run": "I-26",
+    "site": "A",
+    "kind": "issued",
+    "quantity": 65,
+    "order": "N70",
+    "at": "2026-12-03T10:55:00+08:00"
+  },
+  {
+    "id": "S24",
+    "run": "I-26",
+    "site": "A",
+    "kind": "overlaid",
+    "quantity": 23,
+    "approval": "OV9",
+    "at": "2026-12-03T14:00:00+08:00"
+  },
+  {
+    "id": "S25",
+    "run": "I-27",
+    "site": "A",
+    "kind": "received",
+    "quantity": 120,
+    "at": "2026-12-03T15:12:00+08:00"
+  },
+  {
+    "id": "S26",
+    "run": "I-26",
+    "site": "A",
+    "kind": "delivered",
+    "quantity": 40,
+    "order": "N70",
+    "at": "2026-12-03T10:58:00+08:00"
+  }
+]
