@@ -1,0 +1,166 @@
+{
+  "purchase_order": "PO77",
+  "currency": "CNY",
+  "fee_per_impression": "0.24",
+  "confirmed_cancel_fee_per_position": "18.00",
+  "lines": [
+    {
+      "kind": "printed_qualified_pieces",
+      "run": "I-26",
+      "site": "A",
+      "source_report_id": "P2",
+      "source_report_ids": [
+        "P2"
+      ],
+      "printed_qty": 160,
+      "rejected_qty": 0,
+      "qualified_qty": 160,
+      "unit_price": "0.24",
+      "currency": "CNY",
+      "amount": "38.40",
+      "payable": true,
+      "hold_reasons": [],
+      "basis": "same run/site receipts are one physical batch; pay qualified pieces, not received stock and not withdrawal-deleted quantities"
+    },
+    {
+      "kind": "printed_qualified_pieces",
+      "run": "I-26",
+      "site": "B",
+      "source_report_id": "P2",
+      "source_report_ids": [
+        "P2"
+      ],
+      "printed_qty": 80,
+      "rejected_qty": 0,
+      "qualified_qty": 80,
+      "unit_price": "0.24",
+      "currency": "CNY",
+      "amount": "19.20",
+      "payable": true,
+      "hold_reasons": [],
+      "basis": "same run/site receipts are one physical batch; pay qualified pieces, not received stock and not withdrawal-deleted quantities"
+    },
+    {
+      "kind": "printed_qualified_pieces",
+      "run": "I-26",
+      "site": "C",
+      "source_report_id": "P2",
+      "source_report_ids": [
+        "P2"
+      ],
+      "printed_qty": 80,
+      "rejected_qty": 0,
+      "qualified_qty": 80,
+      "unit_price": "0.24",
+      "currency": "CNY",
+      "amount": "19.20",
+      "payable": true,
+      "hold_reasons": [],
+      "basis": "same run/site receipts are one physical batch; pay qualified pieces, not received stock and not withdrawal-deleted quantities"
+    },
+    {
+      "kind": "printed_qualified_pieces",
+      "run": "I-27",
+      "site": "A",
+      "source_report_id": "P4",
+      "source_report_ids": [
+        "P4"
+      ],
+      "printed_qty": 120,
+      "rejected_qty": 0,
+      "qualified_qty": 120,
+      "unit_price": "0.24",
+      "currency": "CNY",
+      "amount": "28.80",
+      "payable": true,
+      "hold_reasons": [],
+      "basis": "same run/site receipts are one physical batch; pay qualified pieces, not received stock and not withdrawal-deleted quantities"
+    },
+    {
+      "kind": "printed_qualified_pieces",
+      "run": "I-27",
+      "site": "B",
+      "source_report_id": "P4",
+      "source_report_ids": [
+        "P4"
+      ],
+      "printed_qty": 60,
+      "rejected_qty": 0,
+      "qualified_qty": 60,
+      "unit_price": "0.24",
+      "currency": "CNY",
+      "amount": "14.40",
+      "payable": true,
+      "hold_reasons": [],
+      "basis": "same run/site receipts are one physical batch; pay qualified pieces, not received stock and not withdrawal-deleted quantities"
+    },
+    {
+      "kind": "confirmed_cancelled_position",
+      "site": "C",
+      "source_report_id": "P5",
+      "confirmed_at": "2026-12-03T11:35:00+08:00",
+      "quantity_basis": "position",
+      "unit_fee": "18.00",
+      "currency": "CNY",
+      "amount": "18.00",
+      "payable": true,
+      "hold_reasons": [],
+      "basis": "stop_confirmed per position; pending stop is not payable as cancellation"
+    }
+  ],
+  "printed_qualified_qty": 500,
+  "printed_subtotal": "120.00",
+  "cancellation_subtotal": "18.00",
+  "payable_total": "138.00",
+  "payable_items": [
+    {
+      "kind": "printed_qualified_pieces",
+      "run": "I-26",
+      "site": "A",
+      "source_report_id": "P2",
+      "qualified_qty": 160,
+      "amount": "38.40"
+    },
+    {
+      "kind": "printed_qualified_pieces",
+      "run": "I-26",
+      "site": "B",
+      "source_report_id": "P2",
+      "qualified_qty": 80,
+      "amount": "19.20"
+    },
+    {
+      "kind": "printed_qualified_pieces",
+      "run": "I-26",
+      "site": "C",
+      "source_report_id": "P2",
+      "qualified_qty": 80,
+      "amount": "19.20"
+    },
+    {
+      "kind": "printed_qualified_pieces",
+      "run": "I-27",
+      "site": "A",
+      "source_report_id": "P4",
+      "qualified_qty": 120,
+      "amount": "28.80"
+    },
+    {
+      "kind": "printed_qualified_pieces",
+      "run": "I-27",
+      "site": "B",
+      "source_report_id": "P4",
+      "qualified_qty": 60,
+      "amount": "14.40"
+    },
+    {
+      "kind": "confirmed_cancelled_position",
+      "run": null,
+      "site": "C",
+      "source_report_id": "P5",
+      "qualified_qty": null,
+      "amount": "18.00"
+    }
+  ],
+  "rule": "确实印制的合格件与经确认按位置取消项可付；客户撤回不冲销已印实物，重复回执不重复结算。"
+}

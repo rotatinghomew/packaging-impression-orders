@@ -1,0 +1,2107 @@
+{
+  "proof": {
+    "plate": "IP28",
+    "revision": 1,
+    "accepted": true,
+    "rule": "印厂必须按 (plate, revision) 认版；同名不同 revision 不得下发机台",
+    "positions": [
+      {
+        "site": "A",
+        "text": "植物来源｜本地原料",
+        "claims": [
+          "PLANT",
+          "LOCAL"
+        ],
+        "share": 2,
+        "source_permits": [
+          {
+            "claim": "PLANT",
+            "issuer": "AOC",
+            "markets": [
+              "N",
+              "S"
+            ],
+            "skus": [
+              "P1",
+              "P2"
+            ],
+            "valid_to": "2026-12-20"
+          },
+          {
+            "claim": "LOCAL",
+            "issuer": "LOCAL-GROUP",
+            "markets": [
+              "N"
+            ],
+            "skus": [
+              "P1"
+            ],
+            "valid_to": "2026-12-18"
+          }
+        ],
+        "credential_complete": true,
+        "approved_combinations": [
+          {
+            "market": "N",
+            "sku": "P1",
+            "claims": [
+              "LOCAL",
+              "PLANT"
+            ],
+            "combination": {
+              "market": "N",
+              "sku": "P1",
+              "claims": [
+                "PLANT",
+                "LOCAL"
+              ]
+            },
+            "permits": {
+              "LOCAL": {
+                "claim": "LOCAL",
+                "issuer": "LOCAL-GROUP",
+                "markets": [
+                  "N"
+                ],
+                "skus": [
+                  "P1"
+                ],
+                "valid_to": "2026-12-18"
+              },
+              "PLANT": {
+                "claim": "PLANT",
+                "issuer": "AOC",
+                "markets": [
+                  "N",
+                  "S"
+                ],
+                "skus": [
+                  "P1",
+                  "P2"
+                ],
+                "valid_to": "2026-12-20"
+              }
+            },
+            "withdrawn_claim_still_present": false
+          }
+        ],
+        "current_original_uses": [],
+        "overlay_ids": [
+          "OV9"
+        ]
+      },
+      {
+        "site": "B",
+        "text": "植物来源",
+        "claims": [
+          "PLANT"
+        ],
+        "share": 1,
+        "source_permits": [
+          {
+            "claim": "PLANT",
+            "issuer": "AOC",
+            "markets": [
+              "N",
+              "S"
+            ],
+            "skus": [
+              "P1",
+              "P2"
+            ],
+            "valid_to": "2026-12-20"
+          }
+        ],
+        "credential_complete": true,
+        "approved_combinations": [
+          {
+            "market": "N",
+            "sku": "P1",
+            "claims": [
+              "PLANT"
+            ],
+            "combination": {
+              "market": "N",
+              "sku": "P1",
+              "claims": [
+                "PLANT"
+              ]
+            },
+            "permits": {
+              "PLANT": {
+                "claim": "PLANT",
+                "issuer": "AOC",
+                "markets": [
+                  "N",
+                  "S"
+                ],
+                "skus": [
+                  "P1",
+                  "P2"
+                ],
+                "valid_to": "2026-12-20"
+              }
+            },
+            "withdrawn_claim_still_present": false
+          },
+          {
+            "market": "S",
+            "sku": "P1",
+            "claims": [
+              "PLANT"
+            ],
+            "combination": {
+              "market": "S",
+              "sku": "P1",
+              "claims": [
+                "PLANT"
+              ]
+            },
+            "permits": {
+              "PLANT": {
+                "claim": "PLANT",
+                "issuer": "AOC",
+                "markets": [
+                  "N",
+                  "S"
+                ],
+                "skus": [
+                  "P1",
+                  "P2"
+                ],
+                "valid_to": "2026-12-20"
+              }
+            },
+            "withdrawn_claim_still_present": false
+          }
+        ],
+        "current_original_uses": [
+          {
+            "market": "N",
+            "sku": "P1",
+            "claims": [
+              "PLANT"
+            ],
+            "combination": {
+              "market": "N",
+              "sku": "P1",
+              "claims": [
+                "PLANT"
+              ]
+            },
+            "permits": {
+              "PLANT": {
+                "claim": "PLANT",
+                "issuer": "AOC",
+                "markets": [
+                  "N",
+                  "S"
+                ],
+                "skus": [
+                  "P1",
+                  "P2"
+                ],
+                "valid_to": "2026-12-20"
+              }
+            },
+            "withdrawn_claim_still_present": false
+          },
+          {
+            "market": "S",
+            "sku": "P1",
+            "claims": [
+              "PLANT"
+            ],
+            "combination": {
+              "market": "S",
+              "sku": "P1",
+              "claims": [
+                "PLANT"
+              ]
+            },
+            "permits": {
+              "PLANT": {
+                "claim": "PLANT",
+                "issuer": "AOC",
+                "markets": [
+                  "N",
+                  "S"
+                ],
+                "skus": [
+                  "P1",
+                  "P2"
+                ],
+                "valid_to": "2026-12-20"
+              }
+            },
+            "withdrawn_claim_still_present": false
+          }
+        ],
+        "overlay_ids": []
+      },
+      {
+        "site": "C",
+        "text": "本地原料",
+        "claims": [
+          "LOCAL"
+        ],
+        "share": 1,
+        "source_permits": [
+          {
+            "claim": "LOCAL",
+            "issuer": "LOCAL-GROUP",
+            "markets": [
+              "N"
+            ],
+            "skus": [
+              "P1"
+            ],
+            "valid_to": "2026-12-18"
+          }
+        ],
+        "credential_complete": true,
+        "approved_combinations": [],
+        "current_original_uses": [],
+        "overlay_ids": []
+      }
+    ],
+    "withdrawal": {
+      "id": "WL7",
+      "claim": "LOCAL",
+      "market": "N",
+      "effective": "2026-12-03T11:00:00+08:00"
+    },
+    "overlays": [
+      {
+        "id": "OV9",
+        "market": "N",
+        "sku": "P1",
+        "claim_removed": "LOCAL",
+        "positions": [
+          "A"
+        ],
+        "issuer": "LOCAL-GROUP"
+      },
+      {
+        "plate": "IP28",
+        "revision": 1,
+        "positions": [
+          {
+            "site": "A",
+            "text": "植物来源｜本地原料",
+            "claims": [
+              "PLANT",
+              "LOCAL"
+            ],
+            "share": 2
+          },
+          {
+            "site": "B",
+            "text": "植物来源",
+            "claims": [
+              "PLANT"
+            ],
+            "share": 1
+          },
+          {
+            "site": "C",
+            "text": "本地原料",
+            "claims": [
+              "LOCAL"
+            ],
+            "share": 1
+          }
+        ],
+        "permit": [
+          {
+            "claim": "PLANT",
+            "issuer": "AOC",
+            "markets": [
+              "N",
+              "S"
+            ],
+            "skus": [
+              "P1",
+              "P2"
+            ],
+            "valid_to": "2026-12-20"
+          },
+          {
+            "claim": "LOCAL",
+            "issuer": "LOCAL-GROUP",
+            "markets": [
+              "N"
+            ],
+            "skus": [
+              "P1"
+            ],
+            "valid_to": "2026-12-18"
+          }
+        ],
+        "combinations": [
+          {
+            "market": "N",
+            "sku": "P1",
+            "claims": [
+              "PLANT",
+              "LOCAL"
+            ]
+          },
+          {
+            "market": "N",
+            "sku": "P1",
+            "claims": [
+              "PLANT"
+            ]
+          },
+          {
+            "market": "S",
+            "sku": "P1",
+            "claims": [
+              "PLANT"
+            ]
+          }
+        ],
+        "withdrawal": {
+          "id": "WL7",
+          "claim": "LOCAL",
+          "market": "N",
+          "effective": "2026-12-03T11:00:00+08:00"
+        },
+        "overlay": {
+          "id": "OV9",
+          "market": "N",
+          "sku": "P1",
+          "claim_removed": "LOCAL",
+          "positions": [
+            "A"
+          ],
+          "issuer": "LOCAL-GROUP"
+        }
+      }
+    ]
+  },
+  "print_approval": {
+    "purchase_order": "PO77",
+    "proof_ref": {
+      "plate": "IP28",
+      "revision": 1
+    },
+    "approved": true,
+    "printer_recognized": true,
+    "approved_for_generic_printing": true,
+    "packaging_spec_complete": false,
+    "approved_for_known_customer_uses": false,
+    "sites": [
+      {
+        "site": "A",
+        "approved_to_print": true,
+        "credential_complete": true,
+        "missing_claims": [],
+        "permits": [
+          {
+            "claim": "PLANT",
+            "issuer": "AOC",
+            "markets": [
+              "N",
+              "S"
+            ],
+            "skus": [
+              "P1",
+              "P2"
+            ],
+            "valid_to": "2026-12-20"
+          },
+          {
+            "claim": "LOCAL",
+            "issuer": "LOCAL-GROUP",
+            "markets": [
+              "N"
+            ],
+            "skus": [
+              "P1"
+            ],
+            "valid_to": "2026-12-18"
+          }
+        ],
+        "spec_supported": true,
+        "supported_combinations": [
+          {
+            "market": "N",
+            "sku": "P1",
+            "claims": [
+              "LOCAL",
+              "PLANT"
+            ],
+            "combination": {
+              "market": "N",
+              "sku": "P1",
+              "claims": [
+                "PLANT",
+                "LOCAL"
+              ]
+            },
+            "permits": {
+              "LOCAL": {
+                "claim": "LOCAL",
+                "issuer": "LOCAL-GROUP",
+                "markets": [
+                  "N"
+                ],
+                "skus": [
+                  "P1"
+                ],
+                "valid_to": "2026-12-18"
+              },
+              "PLANT": {
+                "claim": "PLANT",
+                "issuer": "AOC",
+                "markets": [
+                  "N",
+                  "S"
+                ],
+                "skus": [
+                  "P1",
+                  "P2"
+                ],
+                "valid_to": "2026-12-20"
+              }
+            },
+            "withdrawn_claim_still_present": true
+          }
+        ],
+        "share": 2,
+        "reasons": []
+      },
+      {
+        "site": "B",
+        "approved_to_print": true,
+        "credential_complete": true,
+        "missing_claims": [],
+        "permits": [
+          {
+            "claim": "PLANT",
+            "issuer": "AOC",
+            "markets": [
+              "N",
+              "S"
+            ],
+            "skus": [
+              "P1",
+              "P2"
+            ],
+            "valid_to": "2026-12-20"
+          }
+        ],
+        "spec_supported": true,
+        "supported_combinations": [
+          {
+            "market": "N",
+            "sku": "P1",
+            "claims": [
+              "PLANT"
+            ],
+            "combination": {
+              "market": "N",
+              "sku": "P1",
+              "claims": [
+                "PLANT"
+              ]
+            },
+            "permits": {
+              "PLANT": {
+                "claim": "PLANT",
+                "issuer": "AOC",
+                "markets": [
+                  "N",
+                  "S"
+                ],
+                "skus": [
+                  "P1",
+                  "P2"
+                ],
+                "valid_to": "2026-12-20"
+              }
+            },
+            "withdrawn_claim_still_present": false
+          },
+          {
+            "market": "S",
+            "sku": "P1",
+            "claims": [
+              "PLANT"
+            ],
+            "combination": {
+              "market": "S",
+              "sku": "P1",
+              "claims": [
+                "PLANT"
+              ]
+            },
+            "permits": {
+              "PLANT": {
+                "claim": "PLANT",
+                "issuer": "AOC",
+                "markets": [
+                  "N",
+                  "S"
+                ],
+                "skus": [
+                  "P1",
+                  "P2"
+                ],
+                "valid_to": "2026-12-20"
+              }
+            },
+            "withdrawn_claim_still_present": false
+          }
+        ],
+        "share": 1,
+        "reasons": []
+      },
+      {
+        "site": "C",
+        "approved_to_print": true,
+        "credential_complete": true,
+        "missing_claims": [],
+        "permits": [
+          {
+            "claim": "LOCAL",
+            "issuer": "LOCAL-GROUP",
+            "markets": [
+              "N"
+            ],
+            "skus": [
+              "P1"
+            ],
+            "valid_to": "2026-12-18"
+          }
+        ],
+        "spec_supported": false,
+        "supported_combinations": [],
+        "share": 1,
+        "reasons": []
+      }
+    ],
+    "rule": "必须按 (plate, revision) 认版；客户组合缺失只限制用途，不删除已发生印刷事实。"
+  },
+  "purchasing": {
+    "withdrawal": {
+      "id": "WL7",
+      "claim": "LOCAL",
+      "market": "N",
+      "effective": "2026-12-03T11:00:00+08:00"
+    },
+    "affected_sites": [
+      "A",
+      "C"
+    ],
+    "sites": [
+      {
+        "site": "A",
+        "claim": "LOCAL",
+        "market": "N",
+        "should_stop_future_unprinted": true,
+        "stop_target_qty_at_effective": 320,
+        "stop_state": "stop_failed_or_timed_out_for_reported_batch",
+        "stop_failed_or_timed_out": true,
+        "stop_pending_at": "2026-12-03T11:09:00+08:00",
+        "stop_pending_report_ids": [
+          "P3"
+        ],
+        "stop_confirmed_at": null,
+        "stop_confirmed_report_id": null,
+        "printed_before_effective": [
+          {
+            "run": "I-26",
+            "site": "A",
+            "printed_qty": 160,
+            "printed_at": "2026-12-03T10:45:00+08:00",
+            "press_report_id": "P2",
+            "received_qty": 160,
+            "receipt_ids": [
+              "S22"
+            ],
+            "outstanding_receipt_qty": 0,
+            "receipt_overrun_qty": 0,
+            "stock_status": "received"
+          }
+        ],
+        "printed_after_effective": [
+          {
+            "run": "I-27",
+            "site": "A",
+            "printed_qty": 120,
+            "printed_at": "2026-12-03T11:10:00+08:00",
+            "press_report_id": "P4",
+            "received_qty": 120,
+            "receipt_ids": [
+              "S25"
+            ],
+            "outstanding_receipt_qty": 0,
+            "receipt_overrun_qty": 0,
+            "stock_status": "received",
+            "stop_outcome": "printed_after_stop_pending"
+          }
+        ],
+        "unstopped_reported_batches": [
+          {
+            "run": "I-27",
+            "site": "A",
+            "printed_qty": 120,
+            "printed_at": "2026-12-03T11:10:00+08:00",
+            "press_report_id": "P4",
+            "received_qty": 120,
+            "receipt_ids": [
+              "S25"
+            ],
+            "outstanding_receipt_qty": 0,
+            "receipt_overrun_qty": 0,
+            "stock_status": "received",
+            "stop_outcome": "printed_after_stop_pending"
+          }
+        ],
+        "requested_qty": 480,
+        "printed_qty": 280,
+        "printed_before_effective_qty": 160,
+        "printed_after_effective_qty": 120,
+        "unprinted_requested_qty": 200,
+        "possible_future_delivery_without_final_stop_or_completion": true,
+        "basis": {
+          "withdrawal_id": "WL7",
+          "effective": "2026-12-03T11:00:00+08:00",
+          "position_claims": [
+            "PLANT",
+            "LOCAL"
+          ]
+        }
+      },
+      {
+        "site": "C",
+        "claim": "LOCAL",
+        "market": "N",
+        "should_stop_future_unprinted": true,
+        "stop_target_qty_at_effective": 160,
+        "stop_state": "confirmed_stopped",
+        "stop_failed_or_timed_out": false,
+        "stop_pending_at": "2026-12-03T11:09:00+08:00",
+        "stop_pending_report_ids": [
+          "P3"
+        ],
+        "stop_confirmed_at": "2026-12-03T11:35:00+08:00",
+        "stop_confirmed_report_id": "P5",
+        "printed_before_effective": [
+          {
+            "run": "I-26",
+            "site": "C",
+            "printed_qty": 80,
+            "printed_at": "2026-12-03T10:45:00+08:00",
+            "press_report_id": "P2",
+            "received_qty": 0,
+            "receipt_ids": [],
+            "outstanding_receipt_qty": 80,
+            "receipt_overrun_qty": 0,
+            "stock_status": "not_received"
+          }
+        ],
+        "printed_after_effective": [],
+        "unstopped_reported_batches": [],
+        "requested_qty": 240,
+        "printed_qty": 80,
+        "printed_before_effective_qty": 80,
+        "printed_after_effective_qty": 0,
+        "unprinted_requested_qty": 160,
+        "possible_future_delivery_without_final_stop_or_completion": false,
+        "basis": {
+          "withdrawal_id": "WL7",
+          "effective": "2026-12-03T11:00:00+08:00",
+          "position_claims": [
+            "LOCAL"
+          ]
+        }
+      }
+    ],
+    "will_receive": [
+      {
+        "run": "I-26",
+        "site": "A",
+        "printed_qty": 160,
+        "printed_at": "2026-12-03T10:45:00+08:00",
+        "press_report_id": "P2",
+        "received_qty": 160,
+        "receipt_ids": [
+          "S22"
+        ],
+        "outstanding_receipt_qty": 0,
+        "receipt_overrun_qty": 0,
+        "stock_status": "received"
+      },
+      {
+        "run": "I-27",
+        "site": "A",
+        "printed_qty": 120,
+        "printed_at": "2026-12-03T11:10:00+08:00",
+        "press_report_id": "P4",
+        "received_qty": 120,
+        "receipt_ids": [
+          "S25"
+        ],
+        "outstanding_receipt_qty": 0,
+        "receipt_overrun_qty": 0,
+        "stock_status": "received",
+        "stop_outcome": "printed_after_stop_pending"
+      },
+      {
+        "run": "I-26",
+        "site": "C",
+        "printed_qty": 80,
+        "printed_at": "2026-12-03T10:45:00+08:00",
+        "press_report_id": "P2",
+        "received_qty": 0,
+        "receipt_ids": [],
+        "outstanding_receipt_qty": 80,
+        "receipt_overrun_qty": 0,
+        "stock_status": "not_received"
+      }
+    ],
+    "unaffected_printed_batches": [
+      {
+        "run": "I-26",
+        "site": "B",
+        "printed_qty": 80,
+        "printed_at": "2026-12-03T10:45:00+08:00",
+        "press_report_id": "P2",
+        "received_qty": 0,
+        "receipt_ids": [],
+        "outstanding_receipt_qty": 80,
+        "receipt_overrun_qty": 0,
+        "stock_status": "not_received"
+      },
+      {
+        "run": "I-27",
+        "site": "B",
+        "printed_qty": 60,
+        "printed_at": "2026-12-03T11:10:00+08:00",
+        "press_report_id": "P4",
+        "received_qty": 0,
+        "receipt_ids": [],
+        "outstanding_receipt_qty": 60,
+        "receipt_overrun_qty": 0,
+        "stock_status": "not_received"
+      }
+    ],
+    "answer": {
+      "应停位置": [
+        "A",
+        "C"
+      ],
+      "已确认停住": [
+        "C"
+      ],
+      "超时或未能停住且已有下机": [
+        {
+          "site": "A",
+          "qty": 120
+        }
+      ],
+      "印好待收": [
+        {
+          "run": "I-26",
+          "site": "C",
+          "outstanding_qty": 80
+        }
+      ]
+    }
+  },
+  "warehouse": {
+    "batches": [
+      {
+        "run": "I-26",
+        "site": "A",
+        "plate": "IP28",
+        "revision": 1,
+        "printed_qty": 160,
+        "rejected_qty": 0,
+        "qualified_qty": 160,
+        "received_qty": 160,
+        "receipt_ids": [
+          "S22"
+        ],
+        "issued_qty": 65,
+        "consumed_qty": 65,
+        "requisitioned_qty": 65,
+        "consumed_basis_ids": [
+          "S23"
+        ],
+        "issue_ids": [
+          "S23"
+        ],
+        "delivered_qty": 40,
+        "delivery_ids": [
+          "S26"
+        ],
+        "valid_overlaid_qty": 23,
+        "overlay_issued_qty": 0,
+        "overlay_in_warehouse_qty": 23,
+        "overlay_in_line_side_qty": 0,
+        "invalid_overlay_qty": 0,
+        "warehouse_on_hand_qty": 95,
+        "physical_available_qty": 95,
+        "line_side_open_qty": 25,
+        "available_qty": 23,
+        "legally_available_qty": 23,
+        "usable_qty_by_use": {
+          "N|P1|PLANT": 23
+        },
+        "original_ready_qty": 0,
+        "overlay_ready_qty": 23,
+        "pending_overlay_qty": 72,
+        "pending_relabel_qty": 72,
+        "blocked_unusable_qty": 0,
+        "pending_overlay_including_line_side_qty": 97,
+        "usage": {
+          "site": "A",
+          "base_claims": [
+            "PLANT",
+            "LOCAL"
+          ],
+          "base_current_uses": [],
+          "base_historical_uses": [
+            {
+              "market": "N",
+              "sku": "P1",
+              "claims": [
+                "LOCAL",
+                "PLANT"
+              ],
+              "combination": {
+                "market": "N",
+                "sku": "P1",
+                "claims": [
+                  "PLANT",
+                  "LOCAL"
+                ]
+              },
+              "permits": {
+                "LOCAL": {
+                  "claim": "LOCAL",
+                  "issuer": "LOCAL-GROUP",
+                  "markets": [
+                    "N"
+                  ],
+                  "skus": [
+                    "P1"
+                  ],
+                  "valid_to": "2026-12-18"
+                },
+                "PLANT": {
+                  "claim": "PLANT",
+                  "issuer": "AOC",
+                  "markets": [
+                    "N",
+                    "S"
+                  ],
+                  "skus": [
+                    "P1",
+                    "P2"
+                  ],
+                  "valid_to": "2026-12-20"
+                }
+              },
+              "withdrawn_claim_still_present": false
+            }
+          ],
+          "base_withdrawn": true,
+          "overlay_scheme": {
+            "id": "OV9",
+            "market": "N",
+            "sku": "P1",
+            "claim_removed": "LOCAL",
+            "positions": [
+              "A"
+            ],
+            "issuer": "LOCAL-GROUP"
+          },
+          "overlay_uses": [
+            {
+              "market": "N",
+              "sku": "P1",
+              "claims": [
+                "PLANT"
+              ],
+              "combination": {
+                "market": "N",
+                "sku": "P1",
+                "claims": [
+                  "PLANT"
+                ]
+              },
+              "permits": {
+                "PLANT": {
+                  "claim": "PLANT",
+                  "issuer": "AOC",
+                  "markets": [
+                    "N",
+                    "S"
+                  ],
+                  "skus": [
+                    "P1",
+                    "P2"
+                  ],
+                  "valid_to": "2026-12-20"
+                }
+              },
+              "withdrawn_claim_still_present": false,
+              "overlay_id": "OV9"
+            }
+          ],
+          "available_uses": [
+            {
+              "market": "N",
+              "sku": "P1",
+              "claims": [
+                "PLANT"
+              ],
+              "combination": {
+                "market": "N",
+                "sku": "P1",
+                "claims": [
+                  "PLANT"
+                ]
+              },
+              "permits": {
+                "PLANT": {
+                  "claim": "PLANT",
+                  "issuer": "AOC",
+                  "markets": [
+                    "N",
+                    "S"
+                  ],
+                  "skus": [
+                    "P1",
+                    "P2"
+                  ],
+                  "valid_to": "2026-12-20"
+                }
+              },
+              "withdrawn_claim_still_present": false,
+              "overlay_id": "OV9"
+            }
+          ],
+          "available_qty": null
+        },
+        "basis_events": [
+          "S22",
+          "S23",
+          "S24",
+          "S26"
+        ],
+        "basis_warnings": [],
+        "overlay_matches": [
+          {
+            "valid": true,
+            "reasons": [],
+            "approval": "OV9",
+            "overlay": {
+              "id": "OV9",
+              "market": "N",
+              "sku": "P1",
+              "claim_removed": "LOCAL",
+              "positions": [
+                "A"
+              ],
+              "issuer": "LOCAL-GROUP"
+            },
+            "event_id": "S24",
+            "run": "I-26",
+            "site": "A",
+            "quantity": 23,
+            "use": {
+              "market": "N",
+              "sku": "P1"
+            }
+          }
+        ],
+        "overlay_rejections": [],
+        "order_flows": {
+          "N70": {
+            "issued_qty": 65,
+            "delivered_qty": 40,
+            "events": [
+              "S23",
+              "S26"
+            ]
+          }
+        },
+        "physical_reconciliation": {
+          "received": 160,
+          "warehouse_issued": 65,
+          "warehouse_on_hand": 95,
+          "customer_delivered_evidence": 40,
+          "line_side_open_estimate": 25,
+          "note": "delivered 通常承接同一订单的 issued，不再作为第二次仓库出库扣减；received-issued 是仓班在库。"
+        }
+      },
+      {
+        "run": "I-26",
+        "site": "B",
+        "plate": "IP28",
+        "revision": 1,
+        "printed_qty": 80,
+        "rejected_qty": 0,
+        "qualified_qty": 80,
+        "received_qty": 0,
+        "receipt_ids": [],
+        "issued_qty": 0,
+        "consumed_qty": 0,
+        "requisitioned_qty": 0,
+        "consumed_basis_ids": [],
+        "issue_ids": [],
+        "delivered_qty": 0,
+        "delivery_ids": [],
+        "valid_overlaid_qty": 0,
+        "overlay_issued_qty": 0,
+        "overlay_in_warehouse_qty": 0,
+        "overlay_in_line_side_qty": 0,
+        "invalid_overlay_qty": 0,
+        "warehouse_on_hand_qty": 0,
+        "physical_available_qty": 0,
+        "line_side_open_qty": 0,
+        "available_qty": 0,
+        "legally_available_qty": 0,
+        "usable_qty_by_use": {
+          "N|P1|PLANT": 0,
+          "S|P1|PLANT": 0
+        },
+        "original_ready_qty": 0,
+        "overlay_ready_qty": 0,
+        "pending_overlay_qty": 0,
+        "pending_relabel_qty": 0,
+        "blocked_unusable_qty": 0,
+        "pending_overlay_including_line_side_qty": 0,
+        "usage": {
+          "site": "B",
+          "base_claims": [
+            "PLANT"
+          ],
+          "base_current_uses": [
+            {
+              "market": "N",
+              "sku": "P1",
+              "claims": [
+                "PLANT"
+              ],
+              "combination": {
+                "market": "N",
+                "sku": "P1",
+                "claims": [
+                  "PLANT"
+                ]
+              },
+              "permits": {
+                "PLANT": {
+                  "claim": "PLANT",
+                  "issuer": "AOC",
+                  "markets": [
+                    "N",
+                    "S"
+                  ],
+                  "skus": [
+                    "P1",
+                    "P2"
+                  ],
+                  "valid_to": "2026-12-20"
+                }
+              },
+              "withdrawn_claim_still_present": false
+            },
+            {
+              "market": "S",
+              "sku": "P1",
+              "claims": [
+                "PLANT"
+              ],
+              "combination": {
+                "market": "S",
+                "sku": "P1",
+                "claims": [
+                  "PLANT"
+                ]
+              },
+              "permits": {
+                "PLANT": {
+                  "claim": "PLANT",
+                  "issuer": "AOC",
+                  "markets": [
+                    "N",
+                    "S"
+                  ],
+                  "skus": [
+                    "P1",
+                    "P2"
+                  ],
+                  "valid_to": "2026-12-20"
+                }
+              },
+              "withdrawn_claim_still_present": false
+            }
+          ],
+          "base_historical_uses": [
+            {
+              "market": "N",
+              "sku": "P1",
+              "claims": [
+                "PLANT"
+              ],
+              "combination": {
+                "market": "N",
+                "sku": "P1",
+                "claims": [
+                  "PLANT"
+                ]
+              },
+              "permits": {
+                "PLANT": {
+                  "claim": "PLANT",
+                  "issuer": "AOC",
+                  "markets": [
+                    "N",
+                    "S"
+                  ],
+                  "skus": [
+                    "P1",
+                    "P2"
+                  ],
+                  "valid_to": "2026-12-20"
+                }
+              },
+              "withdrawn_claim_still_present": false
+            },
+            {
+              "market": "S",
+              "sku": "P1",
+              "claims": [
+                "PLANT"
+              ],
+              "combination": {
+                "market": "S",
+                "sku": "P1",
+                "claims": [
+                  "PLANT"
+                ]
+              },
+              "permits": {
+                "PLANT": {
+                  "claim": "PLANT",
+                  "issuer": "AOC",
+                  "markets": [
+                    "N",
+                    "S"
+                  ],
+                  "skus": [
+                    "P1",
+                    "P2"
+                  ],
+                  "valid_to": "2026-12-20"
+                }
+              },
+              "withdrawn_claim_still_present": false
+            }
+          ],
+          "base_withdrawn": false,
+          "overlay_scheme": null,
+          "overlay_uses": [],
+          "available_uses": [
+            {
+              "market": "N",
+              "sku": "P1",
+              "claims": [
+                "PLANT"
+              ],
+              "combination": {
+                "market": "N",
+                "sku": "P1",
+                "claims": [
+                  "PLANT"
+                ]
+              },
+              "permits": {
+                "PLANT": {
+                  "claim": "PLANT",
+                  "issuer": "AOC",
+                  "markets": [
+                    "N",
+                    "S"
+                  ],
+                  "skus": [
+                    "P1",
+                    "P2"
+                  ],
+                  "valid_to": "2026-12-20"
+                }
+              },
+              "withdrawn_claim_still_present": false
+            },
+            {
+              "market": "S",
+              "sku": "P1",
+              "claims": [
+                "PLANT"
+              ],
+              "combination": {
+                "market": "S",
+                "sku": "P1",
+                "claims": [
+                  "PLANT"
+                ]
+              },
+              "permits": {
+                "PLANT": {
+                  "claim": "PLANT",
+                  "issuer": "AOC",
+                  "markets": [
+                    "N",
+                    "S"
+                  ],
+                  "skus": [
+                    "P1",
+                    "P2"
+                  ],
+                  "valid_to": "2026-12-20"
+                }
+              },
+              "withdrawn_claim_still_present": false
+            }
+          ],
+          "available_qty": null
+        },
+        "basis_events": [],
+        "basis_warnings": [],
+        "overlay_matches": [],
+        "overlay_rejections": [],
+        "order_flows": {},
+        "physical_reconciliation": {
+          "received": 0,
+          "warehouse_issued": 0,
+          "warehouse_on_hand": 0,
+          "customer_delivered_evidence": 0,
+          "line_side_open_estimate": 0,
+          "note": "delivered 通常承接同一订单的 issued，不再作为第二次仓库出库扣减；received-issued 是仓班在库。"
+        }
+      },
+      {
+        "run": "I-26",
+        "site": "C",
+        "plate": "IP28",
+        "revision": 1,
+        "printed_qty": 80,
+        "rejected_qty": 0,
+        "qualified_qty": 80,
+        "received_qty": 0,
+        "receipt_ids": [],
+        "issued_qty": 0,
+        "consumed_qty": 0,
+        "requisitioned_qty": 0,
+        "consumed_basis_ids": [],
+        "issue_ids": [],
+        "delivered_qty": 0,
+        "delivery_ids": [],
+        "valid_overlaid_qty": 0,
+        "overlay_issued_qty": 0,
+        "overlay_in_warehouse_qty": 0,
+        "overlay_in_line_side_qty": 0,
+        "invalid_overlay_qty": 0,
+        "warehouse_on_hand_qty": 0,
+        "physical_available_qty": 0,
+        "line_side_open_qty": 0,
+        "available_qty": 0,
+        "legally_available_qty": 0,
+        "usable_qty_by_use": {},
+        "original_ready_qty": 0,
+        "overlay_ready_qty": 0,
+        "pending_overlay_qty": 0,
+        "pending_relabel_qty": 0,
+        "blocked_unusable_qty": 0,
+        "pending_overlay_including_line_side_qty": 0,
+        "usage": {
+          "site": "C",
+          "base_claims": [
+            "LOCAL"
+          ],
+          "base_current_uses": [],
+          "base_historical_uses": [],
+          "base_withdrawn": true,
+          "overlay_scheme": null,
+          "overlay_uses": [],
+          "available_uses": [],
+          "available_qty": null
+        },
+        "basis_events": [],
+        "basis_warnings": [],
+        "overlay_matches": [],
+        "overlay_rejections": [],
+        "order_flows": {},
+        "physical_reconciliation": {
+          "received": 0,
+          "warehouse_issued": 0,
+          "warehouse_on_hand": 0,
+          "customer_delivered_evidence": 0,
+          "line_side_open_estimate": 0,
+          "note": "delivered 通常承接同一订单的 issued，不再作为第二次仓库出库扣减；received-issued 是仓班在库。"
+        }
+      },
+      {
+        "run": "I-27",
+        "site": "A",
+        "plate": "IP28",
+        "revision": 1,
+        "printed_qty": 120,
+        "rejected_qty": 0,
+        "qualified_qty": 120,
+        "received_qty": 120,
+        "receipt_ids": [
+          "S25"
+        ],
+        "issued_qty": 0,
+        "consumed_qty": 0,
+        "requisitioned_qty": 0,
+        "consumed_basis_ids": [],
+        "issue_ids": [],
+        "delivered_qty": 0,
+        "delivery_ids": [],
+        "valid_overlaid_qty": 0,
+        "overlay_issued_qty": 0,
+        "overlay_in_warehouse_qty": 0,
+        "overlay_in_line_side_qty": 0,
+        "invalid_overlay_qty": 0,
+        "warehouse_on_hand_qty": 120,
+        "physical_available_qty": 120,
+        "line_side_open_qty": 0,
+        "available_qty": 0,
+        "legally_available_qty": 0,
+        "usable_qty_by_use": {
+          "N|P1|PLANT": 0
+        },
+        "original_ready_qty": 0,
+        "overlay_ready_qty": 0,
+        "pending_overlay_qty": 120,
+        "pending_relabel_qty": 120,
+        "blocked_unusable_qty": 0,
+        "pending_overlay_including_line_side_qty": 120,
+        "usage": {
+          "site": "A",
+          "base_claims": [
+            "PLANT",
+            "LOCAL"
+          ],
+          "base_current_uses": [],
+          "base_historical_uses": [
+            {
+              "market": "N",
+              "sku": "P1",
+              "claims": [
+                "LOCAL",
+                "PLANT"
+              ],
+              "combination": {
+                "market": "N",
+                "sku": "P1",
+                "claims": [
+                  "PLANT",
+                  "LOCAL"
+                ]
+              },
+              "permits": {
+                "LOCAL": {
+                  "claim": "LOCAL",
+                  "issuer": "LOCAL-GROUP",
+                  "markets": [
+                    "N"
+                  ],
+                  "skus": [
+                    "P1"
+                  ],
+                  "valid_to": "2026-12-18"
+                },
+                "PLANT": {
+                  "claim": "PLANT",
+                  "issuer": "AOC",
+                  "markets": [
+                    "N",
+                    "S"
+                  ],
+                  "skus": [
+                    "P1",
+                    "P2"
+                  ],
+                  "valid_to": "2026-12-20"
+                }
+              },
+              "withdrawn_claim_still_present": false
+            }
+          ],
+          "base_withdrawn": true,
+          "overlay_scheme": {
+            "id": "OV9",
+            "market": "N",
+            "sku": "P1",
+            "claim_removed": "LOCAL",
+            "positions": [
+              "A"
+            ],
+            "issuer": "LOCAL-GROUP"
+          },
+          "overlay_uses": [
+            {
+              "market": "N",
+              "sku": "P1",
+              "claims": [
+                "PLANT"
+              ],
+              "combination": {
+                "market": "N",
+                "sku": "P1",
+                "claims": [
+                  "PLANT"
+                ]
+              },
+              "permits": {
+                "PLANT": {
+                  "claim": "PLANT",
+                  "issuer": "AOC",
+                  "markets": [
+                    "N",
+                    "S"
+                  ],
+                  "skus": [
+                    "P1",
+                    "P2"
+                  ],
+                  "valid_to": "2026-12-20"
+                }
+              },
+              "withdrawn_claim_still_present": false,
+              "overlay_id": "OV9"
+            }
+          ],
+          "available_uses": [],
+          "available_qty": null
+        },
+        "basis_events": [
+          "S25"
+        ],
+        "basis_warnings": [],
+        "overlay_matches": [],
+        "overlay_rejections": [],
+        "order_flows": {},
+        "physical_reconciliation": {
+          "received": 120,
+          "warehouse_issued": 0,
+          "warehouse_on_hand": 120,
+          "customer_delivered_evidence": 0,
+          "line_side_open_estimate": 0,
+          "note": "delivered 通常承接同一订单的 issued，不再作为第二次仓库出库扣减；received-issued 是仓班在库。"
+        }
+      },
+      {
+        "run": "I-27",
+        "site": "B",
+        "plate": "IP28",
+        "revision": 1,
+        "printed_qty": 60,
+        "rejected_qty": 0,
+        "qualified_qty": 60,
+        "received_qty": 0,
+        "receipt_ids": [],
+        "issued_qty": 0,
+        "consumed_qty": 0,
+        "requisitioned_qty": 0,
+        "consumed_basis_ids": [],
+        "issue_ids": [],
+        "delivered_qty": 0,
+        "delivery_ids": [],
+        "valid_overlaid_qty": 0,
+        "overlay_issued_qty": 0,
+        "overlay_in_warehouse_qty": 0,
+        "overlay_in_line_side_qty": 0,
+        "invalid_overlay_qty": 0,
+        "warehouse_on_hand_qty": 0,
+        "physical_available_qty": 0,
+        "line_side_open_qty": 0,
+        "available_qty": 0,
+        "legally_available_qty": 0,
+        "usable_qty_by_use": {
+          "N|P1|PLANT": 0,
+          "S|P1|PLANT": 0
+        },
+        "original_ready_qty": 0,
+        "overlay_ready_qty": 0,
+        "pending_overlay_qty": 0,
+        "pending_relabel_qty": 0,
+        "blocked_unusable_qty": 0,
+        "pending_overlay_including_line_side_qty": 0,
+        "usage": {
+          "site": "B",
+          "base_claims": [
+            "PLANT"
+          ],
+          "base_current_uses": [
+            {
+              "market": "N",
+              "sku": "P1",
+              "claims": [
+                "PLANT"
+              ],
+              "combination": {
+                "market": "N",
+                "sku": "P1",
+                "claims": [
+                  "PLANT"
+                ]
+              },
+              "permits": {
+                "PLANT": {
+                  "claim": "PLANT",
+                  "issuer": "AOC",
+                  "markets": [
+                    "N",
+                    "S"
+                  ],
+                  "skus": [
+                    "P1",
+                    "P2"
+                  ],
+                  "valid_to": "2026-12-20"
+                }
+              },
+              "withdrawn_claim_still_present": false
+            },
+            {
+              "market": "S",
+              "sku": "P1",
+              "claims": [
+                "PLANT"
+              ],
+              "combination": {
+                "market": "S",
+                "sku": "P1",
+                "claims": [
+                  "PLANT"
+                ]
+              },
+              "permits": {
+                "PLANT": {
+                  "claim": "PLANT",
+                  "issuer": "AOC",
+                  "markets": [
+                    "N",
+                    "S"
+                  ],
+                  "skus": [
+                    "P1",
+                    "P2"
+                  ],
+                  "valid_to": "2026-12-20"
+                }
+              },
+              "withdrawn_claim_still_present": false
+            }
+          ],
+          "base_historical_uses": [
+            {
+              "market": "N",
+              "sku": "P1",
+              "claims": [
+                "PLANT"
+              ],
+              "combination": {
+                "market": "N",
+                "sku": "P1",
+                "claims": [
+                  "PLANT"
+                ]
+              },
+              "permits": {
+                "PLANT": {
+                  "claim": "PLANT",
+                  "issuer": "AOC",
+                  "markets": [
+                    "N",
+                    "S"
+                  ],
+                  "skus": [
+                    "P1",
+                    "P2"
+                  ],
+                  "valid_to": "2026-12-20"
+                }
+              },
+              "withdrawn_claim_still_present": false
+            },
+            {
+              "market": "S",
+              "sku": "P1",
+              "claims": [
+                "PLANT"
+              ],
+              "combination": {
+                "market": "S",
+                "sku": "P1",
+                "claims": [
+                  "PLANT"
+                ]
+              },
+              "permits": {
+                "PLANT": {
+                  "claim": "PLANT",
+                  "issuer": "AOC",
+                  "markets": [
+                    "N",
+                    "S"
+                  ],
+                  "skus": [
+                    "P1",
+                    "P2"
+                  ],
+                  "valid_to": "2026-12-20"
+                }
+              },
+              "withdrawn_claim_still_present": false
+            }
+          ],
+          "base_withdrawn": false,
+          "overlay_scheme": null,
+          "overlay_uses": [],
+          "available_uses": [
+            {
+              "market": "N",
+              "sku": "P1",
+              "claims": [
+                "PLANT"
+              ],
+              "combination": {
+                "market": "N",
+                "sku": "P1",
+                "claims": [
+                  "PLANT"
+                ]
+              },
+              "permits": {
+                "PLANT": {
+                  "claim": "PLANT",
+                  "issuer": "AOC",
+                  "markets": [
+                    "N",
+                    "S"
+                  ],
+                  "skus": [
+                    "P1",
+                    "P2"
+                  ],
+                  "valid_to": "2026-12-20"
+                }
+              },
+              "withdrawn_claim_still_present": false
+            },
+            {
+              "market": "S",
+              "sku": "P1",
+              "claims": [
+                "PLANT"
+              ],
+              "combination": {
+                "market": "S",
+                "sku": "P1",
+                "claims": [
+                  "PLANT"
+                ]
+              },
+              "permits": {
+                "PLANT": {
+                  "claim": "PLANT",
+                  "issuer": "AOC",
+                  "markets": [
+                    "N",
+                    "S"
+                  ],
+                  "skus": [
+                    "P1",
+                    "P2"
+                  ],
+                  "valid_to": "2026-12-20"
+                }
+              },
+              "withdrawn_claim_still_present": false
+            }
+          ],
+          "available_qty": null
+        },
+        "basis_events": [],
+        "basis_warnings": [],
+        "overlay_matches": [],
+        "overlay_rejections": [],
+        "order_flows": {},
+        "physical_reconciliation": {
+          "received": 0,
+          "warehouse_issued": 0,
+          "warehouse_on_hand": 0,
+          "customer_delivered_evidence": 0,
+          "line_side_open_estimate": 0,
+          "note": "delivered 通常承接同一订单的 issued，不再作为第二次仓库出库扣减；received-issued 是仓班在库。"
+        }
+      }
+    ],
+    "totals": {
+      "press_printed_qty": 500,
+      "received_qty": 280,
+      "issued_qty": 65,
+      "consumed_qty": 65,
+      "delivered_qty": 40,
+      "warehouse_on_hand_qty": 215,
+      "valid_overlaid_qty": 23,
+      "available_qty": 23,
+      "pending_overlay_qty": 192,
+      "pending_overlay_including_line_side_qty": 217,
+      "blocked_qty": 0,
+      "line_side_open_qty": 25
+    },
+    "available_by_use": {
+      "N|P1|PLANT": 23,
+      "S|P1|PLANT": 0
+    },
+    "available_by_use_note": "同一批原版通用袋可能同时符合多个用途；各 use 是可承诺视图，不能跨行相加。",
+    "stock_rule": "只有 received 形成库存；相同事件 id 或相同 (run,site) 完工回执不重复计数。"
+  },
+  "finance": {
+    "purchase_order": "PO77",
+    "currency": "CNY",
+    "fee_per_impression": "0.24",
+    "confirmed_cancel_fee_per_position": "18.00",
+    "lines": [
+      {
+        "kind": "printed_qualified_pieces",
+        "run": "I-26",
+        "site": "A",
+        "source_report_id": "P2",
+        "source_report_ids": [
+          "P2"
+        ],
+        "printed_qty": 160,
+        "rejected_qty": 0,
+        "qualified_qty": 160,
+        "unit_price": "0.24",
+        "currency": "CNY",
+        "amount": "38.40",
+        "payable": true,
+        "hold_reasons": [],
+        "basis": "same run/site receipts are one physical batch; pay qualified pieces, not received stock and not withdrawal-deleted quantities"
+      },
+      {
+        "kind": "printed_qualified_pieces",
+        "run": "I-26",
+        "site": "B",
+        "source_report_id": "P2",
+        "source_report_ids": [
+          "P2"
+        ],
+        "printed_qty": 80,
+        "rejected_qty": 0,
+        "qualified_qty": 80,
+        "unit_price": "0.24",
+        "currency": "CNY",
+        "amount": "19.20",
+        "payable": true,
+        "hold_reasons": [],
+        "basis": "same run/site receipts are one physical batch; pay qualified pieces, not received stock and not withdrawal-deleted quantities"
+      },
+      {
+        "kind": "printed_qualified_pieces",
+        "run": "I-26",
+        "site": "C",
+        "source_report_id": "P2",
+        "source_report_ids": [
+          "P2"
+        ],
+        "printed_qty": 80,
+        "rejected_qty": 0,
+        "qualified_qty": 80,
+        "unit_price": "0.24",
+        "currency": "CNY",
+        "amount": "19.20",
+        "payable": true,
+        "hold_reasons": [],
+        "basis": "same run/site receipts are one physical batch; pay qualified pieces, not received stock and not withdrawal-deleted quantities"
+      },
+      {
+        "kind": "printed_qualified_pieces",
+        "run": "I-27",
+        "site": "A",
+        "source_report_id": "P4",
+        "source_report_ids": [
+          "P4"
+        ],
+        "printed_qty": 120,
+        "rejected_qty": 0,
+        "qualified_qty": 120,
+        "unit_price": "0.24",
+        "currency": "CNY",
+        "amount": "28.80",
+        "payable": true,
+        "hold_reasons": [],
+        "basis": "same run/site receipts are one physical batch; pay qualified pieces, not received stock and not withdrawal-deleted quantities"
+      },
+      {
+        "kind": "printed_qualified_pieces",
+        "run": "I-27",
+        "site": "B",
+        "source_report_id": "P4",
+        "source_report_ids": [
+          "P4"
+        ],
+        "printed_qty": 60,
+        "rejected_qty": 0,
+        "qualified_qty": 60,
+        "unit_price": "0.24",
+        "currency": "CNY",
+        "amount": "14.40",
+        "payable": true,
+        "hold_reasons": [],
+        "basis": "same run/site receipts are one physical batch; pay qualified pieces, not received stock and not withdrawal-deleted quantities"
+      },
+      {
+        "kind": "confirmed_cancelled_position",
+        "site": "C",
+        "source_report_id": "P5",
+        "confirmed_at": "2026-12-03T11:35:00+08:00",
+        "quantity_basis": "position",
+        "unit_fee": "18.00",
+        "currency": "CNY",
+        "amount": "18.00",
+        "payable": true,
+        "hold_reasons": [],
+        "basis": "stop_confirmed per position; pending stop is not payable as cancellation"
+      }
+    ],
+    "printed_qualified_qty": 500,
+    "printed_subtotal": "120.00",
+    "cancellation_subtotal": "18.00",
+    "payable_total": "138.00",
+    "payable_items": [
+      {
+        "kind": "printed_qualified_pieces",
+        "run": "I-26",
+        "site": "A",
+        "source_report_id": "P2",
+        "qualified_qty": 160,
+        "amount": "38.40"
+      },
+      {
+        "kind": "printed_qualified_pieces",
+        "run": "I-26",
+        "site": "B",
+        "source_report_id": "P2",
+        "qualified_qty": 80,
+        "amount": "19.20"
+      },
+      {
+        "kind": "printed_qualified_pieces",
+        "run": "I-26",
+        "site": "C",
+        "source_report_id": "P2",
+        "qualified_qty": 80,
+        "amount": "19.20"
+      },
+      {
+        "kind": "printed_qualified_pieces",
+        "run": "I-27",
+        "site": "A",
+        "source_report_id": "P4",
+        "qualified_qty": 120,
+        "amount": "28.80"
+      },
+      {
+        "kind": "printed_qualified_pieces",
+        "run": "I-27",
+        "site": "B",
+        "source_report_id": "P4",
+        "qualified_qty": 60,
+        "amount": "14.40"
+      },
+      {
+        "kind": "confirmed_cancelled_position",
+        "run": null,
+        "site": "C",
+        "source_report_id": "P5",
+        "qualified_qty": null,
+        "amount": "18.00"
+      }
+    ],
+    "rule": "确实印制的合格件与经确认按位置取消项可付；客户撤回不冲销已印实物，重复回执不重复结算。"
+  },
+  "certificates": [
+    {
+      "certificate_id": "CERT-S26",
+      "delivery_id": "S26",
+      "order_id": "N70",
+      "plate": "IP28",
+      "revision": 1,
+      "run": "I-26",
+      "site": "A",
+      "quantity": 40,
+      "delivered_at": "2026-12-03T10:58:00+08:00",
+      "printed_report_id": "P2",
+      "printed_at": "2026-12-03T10:45:00+08:00",
+      "label_claims_at_time": [
+        "PLANT",
+        "LOCAL"
+      ],
+      "applicable_uses_at_time": [
+        {
+          "market": "N",
+          "sku": "P1",
+          "claims": [
+            "LOCAL",
+            "PLANT"
+          ],
+          "combination": {
+            "market": "N",
+            "sku": "P1",
+            "claims": [
+              "PLANT",
+              "LOCAL"
+            ]
+          },
+          "permits": {
+            "LOCAL": {
+              "claim": "LOCAL",
+              "issuer": "LOCAL-GROUP",
+              "markets": [
+                "N"
+              ],
+              "skus": [
+                "P1"
+              ],
+              "valid_to": "2026-12-18"
+            },
+            "PLANT": {
+              "claim": "PLANT",
+              "issuer": "AOC",
+              "markets": [
+                "N",
+                "S"
+              ],
+              "skus": [
+                "P1",
+                "P2"
+              ],
+              "valid_to": "2026-12-20"
+            }
+          },
+          "withdrawn_claim_still_present": false
+        }
+      ],
+      "before_withdrawal_effective": true,
+      "certifiable": true,
+      "statement": "该 40 件交付发生在撤回生效前，证明依据为 IP28 第 1 版 / I-26 / A，不得用后续 OV9 遮盖记录改写其当时版号。",
+      "basis_record_ids": [
+        "S26",
+        "P2"
+      ]
+    }
+  ],
+  "order_inquiry_n_p1": {
+    "order_id": "INQUIRY-N-P1",
+    "market": "N",
+    "sku": "P1",
+    "delivery_date": "2026-12-10",
+    "requested_qty": null,
+    "currently_available_qty": 23,
+    "shortfall_qty": null,
+    "can_fulfill": null,
+    "sources": [
+      {
+        "run": "I-26",
+        "site": "A",
+        "available_qty": 23,
+        "original_available_qty": 0,
+        "overlay_available_qty": 23,
+        "warehouse_on_hand_qty": 95,
+        "basis": [
+          "approved_overlay_and_completion_record"
+        ],
+        "basis_ids": [
+          {
+            "valid": true,
+            "reasons": [],
+            "approval": "OV9",
+            "overlay": {
+              "id": "OV9",
+              "market": "N",
+              "sku": "P1",
+              "claim_removed": "LOCAL",
+              "positions": [
+                "A"
+              ],
+              "issuer": "LOCAL-GROUP"
+            },
+            "event_id": "S24",
+            "run": "I-26",
+            "site": "A",
+            "quantity": 23,
+            "use": {
+              "market": "N",
+              "sku": "P1"
+            }
+          }
+        ],
+        "overlay_completion_ids": [
+          "S24"
+        ]
+      }
+    ],
+    "allocation": [
+      {
+        "run": "I-26",
+        "site": "A",
+        "available_qty": 23,
+        "original_available_qty": 0,
+        "overlay_available_qty": 23,
+        "warehouse_on_hand_qty": 95,
+        "basis": [
+          "approved_overlay_and_completion_record"
+        ],
+        "basis_ids": [
+          {
+            "valid": true,
+            "reasons": [],
+            "approval": "OV9",
+            "overlay": {
+              "id": "OV9",
+              "market": "N",
+              "sku": "P1",
+              "claim_removed": "LOCAL",
+              "positions": [
+                "A"
+              ],
+              "issuer": "LOCAL-GROUP"
+            },
+            "event_id": "S24",
+            "run": "I-26",
+            "site": "A",
+            "quantity": 23,
+            "use": {
+              "market": "N",
+              "sku": "P1"
+            }
+          }
+        ],
+        "overlay_completion_ids": [
+          "S24"
+        ],
+        "allocate_qty": 23
+      }
+    ],
+    "rule": "销售订单按 market+sku+预计交付日核对许可、组合与撤回；审批本身不把未补贴实物转为新版。"
+  },
+  "errors": []
+}

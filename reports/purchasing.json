@@ -1,0 +1,228 @@
+{
+  "withdrawal": {
+    "id": "WL7",
+    "claim": "LOCAL",
+    "market": "N",
+    "effective": "2026-12-03T11:00:00+08:00"
+  },
+  "affected_sites": [
+    "A",
+    "C"
+  ],
+  "sites": [
+    {
+      "site": "A",
+      "claim": "LOCAL",
+      "market": "N",
+      "should_stop_future_unprinted": true,
+      "stop_target_qty_at_effective": 320,
+      "stop_state": "stop_failed_or_timed_out_for_reported_batch",
+      "stop_failed_or_timed_out": true,
+      "stop_pending_at": "2026-12-03T11:09:00+08:00",
+      "stop_pending_report_ids": [
+        "P3"
+      ],
+      "stop_confirmed_at": null,
+      "stop_confirmed_report_id": null,
+      "printed_before_effective": [
+        {
+          "run": "I-26",
+          "site": "A",
+          "printed_qty": 160,
+          "printed_at": "2026-12-03T10:45:00+08:00",
+          "press_report_id": "P2",
+          "received_qty": 160,
+          "receipt_ids": [
+            "S22"
+          ],
+          "outstanding_receipt_qty": 0,
+          "receipt_overrun_qty": 0,
+          "stock_status": "received"
+        }
+      ],
+      "printed_after_effective": [
+        {
+          "run": "I-27",
+          "site": "A",
+          "printed_qty": 120,
+          "printed_at": "2026-12-03T11:10:00+08:00",
+          "press_report_id": "P4",
+          "received_qty": 120,
+          "receipt_ids": [
+            "S25"
+          ],
+          "outstanding_receipt_qty": 0,
+          "receipt_overrun_qty": 0,
+          "stock_status": "received",
+          "stop_outcome": "printed_after_stop_pending"
+        }
+      ],
+      "unstopped_reported_batches": [
+        {
+          "run": "I-27",
+          "site": "A",
+          "printed_qty": 120,
+          "printed_at": "2026-12-03T11:10:00+08:00",
+          "press_report_id": "P4",
+          "received_qty": 120,
+          "receipt_ids": [
+            "S25"
+          ],
+          "outstanding_receipt_qty": 0,
+          "receipt_overrun_qty": 0,
+          "stock_status": "received",
+          "stop_outcome": "printed_after_stop_pending"
+        }
+      ],
+      "requested_qty": 480,
+      "printed_qty": 280,
+      "printed_before_effective_qty": 160,
+      "printed_after_effective_qty": 120,
+      "unprinted_requested_qty": 200,
+      "possible_future_delivery_without_final_stop_or_completion": true,
+      "basis": {
+        "withdrawal_id": "WL7",
+        "effective": "2026-12-03T11:00:00+08:00",
+        "position_claims": [
+          "PLANT",
+          "LOCAL"
+        ]
+      }
+    },
+    {
+      "site": "C",
+      "claim": "LOCAL",
+      "market": "N",
+      "should_stop_future_unprinted": true,
+      "stop_target_qty_at_effective": 160,
+      "stop_state": "confirmed_stopped",
+      "stop_failed_or_timed_out": false,
+      "stop_pending_at": "2026-12-03T11:09:00+08:00",
+      "stop_pending_report_ids": [
+        "P3"
+      ],
+      "stop_confirmed_at": "2026-12-03T11:35:00+08:00",
+      "stop_confirmed_report_id": "P5",
+      "printed_before_effective": [
+        {
+          "run": "I-26",
+          "site": "C",
+          "printed_qty": 80,
+          "printed_at": "2026-12-03T10:45:00+08:00",
+          "press_report_id": "P2",
+          "received_qty": 0,
+          "receipt_ids": [],
+          "outstanding_receipt_qty": 80,
+          "receipt_overrun_qty": 0,
+          "stock_status": "not_received"
+        }
+      ],
+      "printed_after_effective": [],
+      "unstopped_reported_batches": [],
+      "requested_qty": 240,
+      "printed_qty": 80,
+      "printed_before_effective_qty": 80,
+      "printed_after_effective_qty": 0,
+      "unprinted_requested_qty": 160,
+      "possible_future_delivery_without_final_stop_or_completion": false,
+      "basis": {
+        "withdrawal_id": "WL7",
+        "effective": "2026-12-03T11:00:00+08:00",
+        "position_claims": [
+          "LOCAL"
+        ]
+      }
+    }
+  ],
+  "will_receive": [
+    {
+      "run": "I-26",
+      "site": "A",
+      "printed_qty": 160,
+      "printed_at": "2026-12-03T10:45:00+08:00",
+      "press_report_id": "P2",
+      "received_qty": 160,
+      "receipt_ids": [
+        "S22"
+      ],
+      "outstanding_receipt_qty": 0,
+      "receipt_overrun_qty": 0,
+      "stock_status": "received"
+    },
+    {
+      "run": "I-27",
+      "site": "A",
+      "printed_qty": 120,
+      "printed_at": "2026-12-03T11:10:00+08:00",
+      "press_report_id": "P4",
+      "received_qty": 120,
+      "receipt_ids": [
+        "S25"
+      ],
+      "outstanding_receipt_qty": 0,
+      "receipt_overrun_qty": 0,
+      "stock_status": "received",
+      "stop_outcome": "printed_after_stop_pending"
+    },
+    {
+      "run": "I-26",
+      "site": "C",
+      "printed_qty": 80,
+      "printed_at": "2026-12-03T10:45:00+08:00",
+      "press_report_id": "P2",
+      "received_qty": 0,
+      "receipt_ids": [],
+      "outstanding_receipt_qty": 80,
+      "receipt_overrun_qty": 0,
+      "stock_status": "not_received"
+    }
+  ],
+  "unaffected_printed_batches": [
+    {
+      "run": "I-26",
+      "site": "B",
+      "printed_qty": 80,
+      "printed_at": "2026-12-03T10:45:00+08:00",
+      "press_report_id": "P2",
+      "received_qty": 0,
+      "receipt_ids": [],
+      "outstanding_receipt_qty": 80,
+      "receipt_overrun_qty": 0,
+      "stock_status": "not_received"
+    },
+    {
+      "run": "I-27",
+      "site": "B",
+      "printed_qty": 60,
+      "printed_at": "2026-12-03T11:10:00+08:00",
+      "press_report_id": "P4",
+      "received_qty": 0,
+      "receipt_ids": [],
+      "outstanding_receipt_qty": 60,
+      "receipt_overrun_qty": 0,
+      "stock_status": "not_received"
+    }
+  ],
+  "answer": {
+    "应停位置": [
+      "A",
+      "C"
+    ],
+    "已确认停住": [
+      "C"
+    ],
+    "超时或未能停住且已有下机": [
+      {
+        "site": "A",
+        "qty": 120
+      }
+    ],
+    "印好待收": [
+      {
+        "run": "I-26",
+        "site": "C",
+        "outstanding_qty": 80
+      }
+    ]
+  }
+}

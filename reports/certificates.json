@@ -1,0 +1,71 @@
+[
+  {
+    "certificate_id": "CERT-S26",
+    "delivery_id": "S26",
+    "order_id": "N70",
+    "plate": "IP28",
+    "revision": 1,
+    "run": "I-26",
+    "site": "A",
+    "quantity": 40,
+    "delivered_at": "2026-12-03T10:58:00+08:00",
+    "printed_report_id": "P2",
+    "printed_at": "2026-12-03T10:45:00+08:00",
+    "label_claims_at_time": [
+      "PLANT",
+      "LOCAL"
+    ],
+    "applicable_uses_at_time": [
+      {
+        "market": "N",
+        "sku": "P1",
+        "claims": [
+          "LOCAL",
+          "PLANT"
+        ],
+        "combination": {
+          "market": "N",
+          "sku": "P1",
+          "claims": [
+            "PLANT",
+            "LOCAL"
+          ]
+        },
+        "permits": {
+          "LOCAL": {
+            "claim": "LOCAL",
+            "issuer": "LOCAL-GROUP",
+            "markets": [
+              "N"
+            ],
+            "skus": [
+              "P1"
+            ],
+            "valid_to": "2026-12-18"
+          },
+          "PLANT": {
+            "claim": "PLANT",
+            "issuer": "AOC",
+            "markets": [
+              "N",
+              "S"
+            ],
+            "skus": [
+              "P1",
+              "P2"
+            ],
+            "valid_to": "2026-12-20"
+          }
+        },
+        "withdrawn_claim_still_present": false
+      }
+    ],
+    "before_withdrawal_effective": true,
+    "certifiable": true,
+    "statement": "该 40 件交付发生在撤回生效前，证明依据为 IP28 第 1 版 / I-26 / A，不得用后续 OV9 遮盖记录改写其当时版号。",
+    "basis_record_ids": [
+      "S26",
+      "P2"
+    ]
+  }
+]

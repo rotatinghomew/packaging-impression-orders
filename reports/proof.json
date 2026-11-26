@@ -1,0 +1,382 @@
+{
+  "plate": "IP28",
+  "revision": 1,
+  "accepted": true,
+  "rule": "印厂必须按 (plate, revision) 认版；同名不同 revision 不得下发机台",
+  "positions": [
+    {
+      "site": "A",
+      "text": "植物来源｜本地原料",
+      "claims": [
+        "PLANT",
+        "LOCAL"
+      ],
+      "share": 2,
+      "source_permits": [
+        {
+          "claim": "PLANT",
+          "issuer": "AOC",
+          "markets": [
+            "N",
+            "S"
+          ],
+          "skus": [
+            "P1",
+            "P2"
+          ],
+          "valid_to": "2026-12-20"
+        },
+        {
+          "claim": "LOCAL",
+          "issuer": "LOCAL-GROUP",
+          "markets": [
+            "N"
+          ],
+          "skus": [
+            "P1"
+          ],
+          "valid_to": "2026-12-18"
+        }
+      ],
+      "credential_complete": true,
+      "approved_combinations": [
+        {
+          "market": "N",
+          "sku": "P1",
+          "claims": [
+            "LOCAL",
+            "PLANT"
+          ],
+          "combination": {
+            "market": "N",
+            "sku": "P1",
+            "claims": [
+              "PLANT",
+              "LOCAL"
+            ]
+          },
+          "permits": {
+            "LOCAL": {
+              "claim": "LOCAL",
+              "issuer": "LOCAL-GROUP",
+              "markets": [
+                "N"
+              ],
+              "skus": [
+                "P1"
+              ],
+              "valid_to": "2026-12-18"
+            },
+            "PLANT": {
+              "claim": "PLANT",
+              "issuer": "AOC",
+              "markets": [
+                "N",
+                "S"
+              ],
+              "skus": [
+                "P1",
+                "P2"
+              ],
+              "valid_to": "2026-12-20"
+            }
+          },
+          "withdrawn_claim_still_present": false
+        }
+      ],
+      "current_original_uses": [],
+      "overlay_ids": [
+        "OV9"
+      ]
+    },
+    {
+      "site": "B",
+      "text": "植物来源",
+      "claims": [
+        "PLANT"
+      ],
+      "share": 1,
+      "source_permits": [
+        {
+          "claim": "PLANT",
+          "issuer": "AOC",
+          "markets": [
+            "N",
+            "S"
+          ],
+          "skus": [
+            "P1",
+            "P2"
+          ],
+          "valid_to": "2026-12-20"
+        }
+      ],
+      "credential_complete": true,
+      "approved_combinations": [
+        {
+          "market": "N",
+          "sku": "P1",
+          "claims": [
+            "PLANT"
+          ],
+          "combination": {
+            "market": "N",
+            "sku": "P1",
+            "claims": [
+              "PLANT"
+            ]
+          },
+          "permits": {
+            "PLANT": {
+              "claim": "PLANT",
+              "issuer": "AOC",
+              "markets": [
+                "N",
+                "S"
+              ],
+              "skus": [
+                "P1",
+                "P2"
+              ],
+              "valid_to": "2026-12-20"
+            }
+          },
+          "withdrawn_claim_still_present": false
+        },
+        {
+          "market": "S",
+          "sku": "P1",
+          "claims": [
+            "PLANT"
+          ],
+          "combination": {
+            "market": "S",
+            "sku": "P1",
+            "claims": [
+              "PLANT"
+            ]
+          },
+          "permits": {
+            "PLANT": {
+              "claim": "PLANT",
+              "issuer": "AOC",
+              "markets": [
+                "N",
+                "S"
+              ],
+              "skus": [
+                "P1",
+                "P2"
+              ],
+              "valid_to": "2026-12-20"
+            }
+          },
+          "withdrawn_claim_still_present": false
+        }
+      ],
+      "current_original_uses": [
+        {
+          "market": "N",
+          "sku": "P1",
+          "claims": [
+            "PLANT"
+          ],
+          "combination": {
+            "market": "N",
+            "sku": "P1",
+            "claims": [
+              "PLANT"
+            ]
+          },
+          "permits": {
+            "PLANT": {
+              "claim": "PLANT",
+              "issuer": "AOC",
+              "markets": [
+                "N",
+                "S"
+              ],
+              "skus": [
+                "P1",
+                "P2"
+              ],
+              "valid_to": "2026-12-20"
+            }
+          },
+          "withdrawn_claim_still_present": false
+        },
+        {
+          "market": "S",
+          "sku": "P1",
+          "claims": [
+            "PLANT"
+          ],
+          "combination": {
+            "market": "S",
+            "sku": "P1",
+            "claims": [
+              "PLANT"
+            ]
+          },
+          "permits": {
+            "PLANT": {
+              "claim": "PLANT",
+              "issuer": "AOC",
+              "markets": [
+                "N",
+                "S"
+              ],
+              "skus": [
+                "P1",
+                "P2"
+              ],
+              "valid_to": "2026-12-20"
+            }
+          },
+          "withdrawn_claim_still_present": false
+        }
+      ],
+      "overlay_ids": []
+    },
+    {
+      "site": "C",
+      "text": "本地原料",
+      "claims": [
+        "LOCAL"
+      ],
+      "share": 1,
+      "source_permits": [
+        {
+          "claim": "LOCAL",
+          "issuer": "LOCAL-GROUP",
+          "markets": [
+            "N"
+          ],
+          "skus": [
+            "P1"
+          ],
+          "valid_to": "2026-12-18"
+        }
+      ],
+      "credential_complete": true,
+      "approved_combinations": [],
+      "current_original_uses": [],
+      "overlay_ids": []
+    }
+  ],
+  "withdrawal": {
+    "id": "WL7",
+    "claim": "LOCAL",
+    "market": "N",
+    "effective": "2026-12-03T11:00:00+08:00"
+  },
+  "overlays": [
+    {
+      "id": "OV9",
+      "market": "N",
+      "sku": "P1",
+      "claim_removed": "LOCAL",
+      "positions": [
+        "A"
+      ],
+      "issuer": "LOCAL-GROUP"
+    },
+    {
+      "plate": "IP28",
+      "revision": 1,
+      "positions": [
+        {
+          "site": "A",
+          "text": "植物来源｜本地原料",
+          "claims": [
+            "PLANT",
+            "LOCAL"
+          ],
+          "share": 2
+        },
+        {
+          "site": "B",
+          "text": "植物来源",
+          "claims": [
+            "PLANT"
+          ],
+          "share": 1
+        },
+        {
+          "site": "C",
+          "text": "本地原料",
+          "claims": [
+            "LOCAL"
+          ],
+          "share": 1
+        }
+      ],
+      "permit": [
+        {
+          "claim": "PLANT",
+          "issuer": "AOC",
+          "markets": [
+            "N",
+            "S"
+          ],
+          "skus": [
+            "P1",
+            "P2"
+          ],
+          "valid_to": "2026-12-20"
+        },
+        {
+          "claim": "LOCAL",
+          "issuer": "LOCAL-GROUP",
+          "markets": [
+            "N"
+          ],
+          "skus": [
+            "P1"
+          ],
+          "valid_to": "2026-12-18"
+        }
+      ],
+      "combinations": [
+        {
+          "market": "N",
+          "sku": "P1",
+          "claims": [
+            "PLANT",
+            "LOCAL"
+          ]
+        },
+        {
+          "market": "N",
+          "sku": "P1",
+          "claims": [
+            "PLANT"
+          ]
+        },
+        {
+          "market": "S",
+          "sku": "P1",
+          "claims": [
+            "PLANT"
+          ]
+        }
+      ],
+      "withdrawal": {
+        "id": "WL7",
+        "claim": "LOCAL",
+        "market": "N",
+        "effective": "2026-12-03T11:00:00+08:00"
+      },
+      "overlay": {
+        "id": "OV9",
+        "market": "N",
+        "sku": "P1",
+        "claim_removed": "LOCAL",
+        "positions": [
+          "A"
+        ],
+        "issuer": "LOCAL-GROUP"
+      }
+    }
+  ]
+}
